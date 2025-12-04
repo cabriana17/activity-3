@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tortang Talong Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #fafafa;
+        }
+        h1 {
+            color: #4b2e14;
+        }
+        h2 {
+            color: #7b4a1c;
+        }
+        ul, ol {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tortang Talong</h1>
+
+    <h2>Ingredients</h2>
+    <ul>
+        <li>3 large eggplants (talong)</li>
+        <li>2 eggs</li>
+        <li>Salt and pepper to taste</li>
+        <li>Cooking oil</li>
+    </ul>
+
+    <h2>Steps</h2>
+    <ol>
+        <li>Grill or roast the eggplants until the skin is charred and soft.</li>
+        <li>Peel off the skin and gently flatten the eggplants with
