@@ -3,27 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tortang Talong Recipe</title>
+    <title>Travel Bliss</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 30px 10px;
+        }
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #4caf50;
+        }
+        .destinations {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background: #fafafa;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Tortang Talong Recipe</h1>
 
-    <h2>Ingredients</h2>
-    <ul>
-        <li>2-3 medium eggplants (talong)</li>
-        <li>2 eggs</li>
-        <li>Salt and pepper to taste</li>
-        <li>1-2 tablespoons cooking oil</li>
-    </ul>
+    <header>
+        <h1>Travel Bliss</h1>
+        <p>Explore the most beautiful places around the world</p>
+    </header>
 
-    <h2>Steps</h2>
-    <ol>
-        <li>Grill or roast the eggplants until the skin becomes charred and the flesh is soft.</li>
-        <li>Let them cool slightly, then peel off the charred skin.</li>
-        <li>Flatten the peeled eggplants using a fork.</li>
-        <li>Beat the eggs in a bowl and season with salt and pepper.</li>
-        <li>Dip the flattened eggplants into the egg mixture.</li>
-        <li>Heat oil in a pan and fry each eggplant until golden brown on both sides.</li>
-    </ol>
+    <section>
+        <h2>Top Destinations</h2>
+        <div class="destinations">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x180" alt="Beach">
+                <h3>Bora Bora</h3>
+                <p>Crystal-clear waters and peaceful island vibes.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x180" alt="City">
+                <h3>Tokyo</h3>
+                <p>A blend of futuristic technology and rich culture.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x180" alt="Mountain">
+                <h3>Swiss Alps</h3>
+                <p>Stunning landscapes perfect for adventure lovers.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Travel Bliss. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
